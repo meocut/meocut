@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MeoCut Video Editor — Edit, Customize, Export</title>
+  <meta name="description" content="MeoCut is a fast, intuitive mobile video editor with reusable templates, multi-track timeline editing, and ultra-crisp 4K 60FPS export.">
+  <meta name="keywords" content="MeoCut, Video Editor, Mobile Video Editing, Reusable Templates, 4K Export, Reels Editor, Shorts Editor">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="apple-touch-icon" href="assets/images/logo.png">
+
+  <!-- Open Graph / Meta for Social Sharing -->
+  <meta property="og:title" content="MeoCut Video Editor — Edit, Customize, Export">
+  <meta property="og:description" content="Your creative mobile workspace. Reuse templates, edit every moment with multi-track precision, and export your way up to 4K.">
+  <meta property="og:image" content="assets/images/banner-showcase.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       Site Header & Navigation
+       ========================================================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="MeoCut Home">
+        <img src="assets/images/logo.png" alt="MeoCut Logo">
+        <span>MeoCut</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#showcase" class="nav-link">App Showcase</a>
+        <a href="#workflow" class="nav-link">How It Works</a>
+        <a href="#gallery" class="nav-link">Screenshots</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#privacy-policy" class="nav-link">Privacy Policy</a>
+        <a href="#terms-of-service" class="nav-link">Terms of Service</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Light / Dark Mode Switcher -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme" title="Toggle Light / Dark Mode">
+          <span id="themeIcon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </span>
+        </button>
+
+        <a href="#download" class="btn btn-primary btn-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Download App</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       Hero Section
+       ========================================================= -->
+  <section class="hero-section" id="hero">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="hero-pill-pulse"></span>
+          <span>Next-Gen Mobile Video Editor • Android</span>
+        </div>
+
+        <h1 class="hero-title">
+          Edit Every Moment <br>
+          <span class="gradient-text">Your Way.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Bring your clips together into cinematic stories in a few taps. Reuse favorite edit templates, fine-tune multi-track timelines, and export up to 4K 60FPS without watermarks or lag.
+        </p>
+
+        <div class="hero-cta-group">
+          <!-- Google Play Badge Style Button -->
+          <a href="#download" class="playstore-btn download-trigger">
+            <svg viewBox="0 0 512 512">
+              <path fill="#4285F4" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z"/>
+              <path fill="#34A853" d="M47 34.3v443.4l240.2-240.2L47 34.3z"/>
+              <path fill="#FBBC04" d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+              <path fill="#EA4335" d="M444.6 235.2l-59.2-34-60.1 60.1 60.1 60.1 59.2-34c16.3-9.3 26.4-26.6 26.4-46.1 0-19.5-10.1-36.8-26.4-46.1z"/>
+            </svg>
+            <div class="playstore-btn-text">
+              <span>GET IT ON</span>
+              <span>Google Play</span>
+            </div>
+          </a>
+
+          <a href="#showcase" class="btn btn-outline btn-lg">
+            <span>Explore Features</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="hero-meta-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>No Watermark</span>
+          </div>
+          <div class="hero-meta-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>4K Ultra HD Export</span>
+          </div>
+          <div class="hero-meta-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Free & Lightweight</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Phone Mockup -->
+      <div class="hero-visual">
+        <div class="floating-badge badge-top">
+          <div class="badge-icon">⚡</div>
+          <div>
+            <div>4K Ultra HD</div>
+            <small style="color:var(--text-muted);font-weight:500;">Up to 60 FPS Export</small>
+          </div>
+        </div>
+
+        <div class="hero-phone-frame">
+          <img src="assets/images/screen-editor.png" alt="MeoCut Timeline Editor Screenshot" class="phone-screen-img" data-preview-src="assets/images/screen-editor.png">
+        </div>
+
+        <div class="floating-badge badge-bottom">
+          <div class="badge-icon">🎨</div>
+          <div>
+            <div>Smart Templates</div>
+            <small style="color:var(--text-muted);font-weight:500;">1-Tap Video Creation</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Key Highlights / Trust Stats
+       ========================================================= -->
+  <section class="highlights-section">
+    <div class="container">
+      <div class="highlights-card">
+        <div class="highlight-item">
+          <div class="highlight-icon-wrap">🚀</div>
+          <div class="highlight-content">
+            <h4>Fast & Responsive</h4>
+            <p>Native hardware acceleration for lag-free preview & instant cuts.</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <div class="highlight-icon-wrap">🎞️</div>
+          <div class="highlight-content">
+            <h4>Reusable Templates</h4>
+            <p>Save favorite edit recipes and swap media slots anytime.</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <div class="highlight-icon-wrap">✨</div>
+          <div class="highlight-content">
+            <h4>Zero Watermark</h4>
+            <p>Export pristine, clean videos ready for TikTok, Shorts & Reels.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Interactive Feature Showcase
+       ========================================================= -->
+  <section class="showcase-section" id="showcase">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Explore MeoCut</span>
+        <h2 class="section-title">Designed for Fast & Effortless Video Creation</h2>
+        <p class="section-subtitle">Discover how MeoCut balances professional editing precision with a clean, clutter-free mobile interface.</p>
+      </div>
+
+      <!-- Feature Tabs -->
+      <div class="showcase-tabs">
+        <button class="showcase-tab-btn active" data-tab="tab-templates">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          <span>Reusable Templates</span>
+        </button>
+
+        <button class="showcase-tab-btn" data-tab="tab-timeline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+          <span>Multi-Track Timeline</span>
+        </button>
+
+        <button class="showcase-tab-btn" data-tab="tab-export">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 16 12 12 8 16"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path></svg>
+          <span>Pro Studio Export</span>
+        </button>
+
+        <button class="showcase-tab-btn" data-tab="tab-workspace">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+          <span>Creative Workspace</span>
+        </button>
+
+        <button class="showcase-tab-btn" data-tab="tab-settings">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          <span>Modern Settings</span>
+        </button>
+      </div>
+
+      <!-- Tab Display Showcase Container -->
+      <div class="showcase-display">
+        <!-- Tab 1: Templates -->
+        <div class="tab-pane active" id="tab-templates">
+          <div class="pane-content">
+            <span class="pane-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+              <span>Instant Viral Content</span>
+            </span>
+            <h3 class="pane-title">Reuse Your Favourite Templates</h3>
+            <p class="pane-desc">Save hours of repetitive editing. Save any video project configuration as a reusable template, search your personal library, or import trending community styles. Replace clips in pre-timed media slots with one click.</p>
+            <ul class="pane-feature-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Single-Tap Media Replacement:</b> Drop new photos and videos into pre-set rhythm slots.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Template Search & Import:</b> Filter templates by style, duration, or slot counts.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Versioned Updates:</b> Keep your best presets organized with built-in v2 labels.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pane-visual">
+            <div class="pane-phone-wrap" data-preview-src="assets/images/screen-templates.png">
+              <img src="assets/images/screen-templates.png" alt="MeoCut Reusable Templates">
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Timeline -->
+        <div class="tab-pane" id="tab-timeline">
+          <div class="pane-content">
+            <span class="pane-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>Frame-by-Frame Precision</span>
+            </span>
+            <h3 class="pane-title">Edit Every Moment Your Way</h3>
+            <p class="pane-desc">A rich yet uncluttered timeline gives you total creative command. Layer video tracks, sound effects, subtitles, and stylish overlays with live preview rendering.</p>
+            <ul class="pane-feature-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Dedicated Tool Suite:</b> Fast access to Text, Captions, Stickers, Overlay, Audio & Remove.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Aspect Ratio Switching:</b> Instant 9:16 vertical reels, 16:9 cinema, or 1:1 squares.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Non-Destructive Editing:</b> Multi-level undo and redo so you can experiment freely.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pane-visual">
+            <div class="pane-phone-wrap" data-preview-src="assets/images/screen-editor.png">
+              <img src="assets/images/screen-editor.png" alt="MeoCut Timeline Interface">
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 3: Export -->
+        <div class="tab-pane" id="tab-export">
+          <div class="pane-content">
+            <span class="pane-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>High Quality Studio Engine</span>
+            </span>
+            <h3 class="pane-title">Export Your Way With Custom Settings</h3>
+            <p class="pane-desc">No compressed potato quality. Fine-tune every aspect of your output file. Choose your target platform quality, adjust bitrate for smaller file sizes, or maximize fidelity with 4K 60FPS HEVC rendering.</p>
+            <ul class="pane-feature-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Flexible Resolutions:</b> 360p, 480p, 720p, 1080p Full HD, and 4K Ultra HD.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Frame Rate & Bitrate:</b> 24 FPS (Cinematic), 30 FPS, or silky smooth 60 FPS up to 20 Mbps.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Modern Codecs:</b> Universal MP4 (H.264) or high-efficiency MP4 (HEVC) + AAC Audio.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pane-visual">
+            <div class="pane-phone-wrap" data-preview-src="assets/images/screen-export.png">
+              <img src="assets/images/screen-export.png" alt="MeoCut Export Settings Screen">
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 4: Workspace -->
+        <div class="tab-pane" id="tab-workspace">
+          <div class="pane-content">
+            <span class="pane-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon></svg>
+              <span>Stay Organized</span>
+            </span>
+            <h3 class="pane-title">Your Creative Workspace</h3>
+            <p class="pane-desc">Manage all your projects effortlessly. Jump back into unfinished drafts with real-time auto-saving, filter by Favorites, Videos, or Shorts, and organize your creations by recency.</p>
+            <ul class="pane-feature-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Quick Project Launcher:</b> Start a new story in a few taps or reopen recent edits.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Smart Categorization:</b> Segment your projects into All, Favorites, Videos, and Shorts.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Instant Preview Thumbnails:</b> See duration, file count, and last edited timestamp.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pane-visual">
+            <div class="pane-phone-wrap" data-preview-src="assets/images/screen-home.png">
+              <img src="assets/images/screen-home.png" alt="MeoCut Workspace Home Screen">
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 5: Settings -->
+        <div class="tab-pane" id="tab-settings">
+          <div class="pane-content">
+            <span class="pane-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"></circle></svg>
+              <span>Personalized Workflow</span>
+            </span>
+            <h3 class="pane-title">Made Simple for Your Workflow</h3>
+            <p class="pane-desc">Configure your editor environment exactly how you like it. Seamlessly toggle Dark Mode for late-night editing sessions, select vibrant accent colors, and clear app cache with a single tap to free up storage.</p>
+            <ul class="pane-feature-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Theme & Accent Color:</b> Choose custom interface accents like Light Sky Blue.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Dark Mode Support:</b> Protect your eyes with a refined dark interface.</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><b>Direct Storage Control:</b> Customize receive folder location & one-click cache purge.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="pane-visual">
+            <div class="pane-phone-wrap" data-preview-src="assets/images/screen-settings.png">
+              <img src="assets/images/screen-settings.png" alt="MeoCut Settings Screen">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Complete Features Grid
+       ========================================================= -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Powerful Features</span>
+        <h2 class="section-title">Everything You Need to Edit Like a Pro</h2>
+        <p class="section-subtitle">MeoCut blends lightweight performance with high-end editing capabilities for content creators, vloggers, and social media managers.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          </div>
+          <h3>Reusable Edit Templates</h3>
+          <p>Turn your signature editing style into an instant template. Swap clips into designated media slots and generate new polished videos in seconds.</p>
+          <span class="feature-card-tag">Templates v2 • 1-Tap Use</span>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line></svg>
+          </div>
+          <h3>Multi-Track Timeline</h3>
+          <p>Enjoy true multi-layer stacking. Separate dedicated tracks for B-rolls, audio voiceovers, dynamic text, subtitles, and animated stickers.</p>
+          <span class="feature-card-tag">Multi-Layer • Frame Accurate</span>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"></path><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+          </div>
+          <h3>4K 60FPS Pro Export</h3>
+          <p>Export at full resolution from 360p up to 4K Ultra HD. Choose 24, 30, or 60 FPS with custom bitrate controls (8 to 20 Mbps) in H.264 or HEVC.</p>
+          <span class="feature-card-tag">H.264 & HEVC • AAC Audio</span>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"></polyline><line x1="9" y1="20" x2="15" y2="20"></line><line x1="12" y1="4" x2="12" y2="20"></line></svg>
+          </div>
+          <h3>Dynamic Text & Captions</h3>
+          <p>Engage your audience with striking text animations, customizable fonts, stylish outlines, drop shadows, and auto-captioning tools.</p>
+          <span class="feature-card-tag">Rich Fonts • Captions</span>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+          </div>
+          <h3>Audio & Sound Design</h3>
+          <p>Add background music, voiceovers, and sound effects. Fine-tune volume levels, fade in/out curves, or mute original camera audio with one tap.</p>
+          <span class="feature-card-tag">Multi-Track Audio • High Fidelity</span>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          </div>
+          <h3>Clean UI & Cache Management</h3>
+          <p>Lightweight performance that doesn't bloat your smartphone. One-tap cache cleaning and configurable receive folders keep your storage free.</p>
+          <span class="feature-card-tag">Light & Dark • Storage Optimized</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Full Showcase Banner & Screenshots Gallery
+       ========================================================= -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Play Store Preview</span>
+        <h2 class="section-title">Edit, Customize, Export</h2>
+        <p class="section-subtitle">Take a closer look at the actual screens and responsive interfaces built into MeoCut.</p>
+      </div>
+
+      <!-- Wide Showcase Banner -->
+      <div class="showcase-banner-card">
+        <img src="assets/images/banner-showcase.jpg" alt="MeoCut Official Multi-Screen Showcase" class="showcase-banner-img" data-preview-src="assets/images/banner-showcase.jpg">
+        <div class="banner-caption">
+          <div>
+            <h3>The All-in-One Mobile Creator Studio</h3>
+            <p>From story ideation to high-bitrate rendering, everything happens directly on your device.</p>
+          </div>
+          <a href="#download" class="btn btn-primary btn-sm">Get MeoCut Free</a>
+        </div>
+      </div>
+
+      <!-- Screenshot Slider / Carousel -->
+      <div class="gallery-slider-wrap">
+        <div class="gallery-track" id="galleryTrack">
+          <!-- Item 1 -->
+          <div class="gallery-item" data-preview-src="assets/images/screen-home.png">
+            <img src="assets/images/screen-home.png" alt="Create stories in a few taps">
+            <div class="gallery-item-title">Stories & Workspace</div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="gallery-item" data-preview-src="assets/images/screen-templates.png">
+            <img src="assets/images/screen-templates.png" alt="Reuse your favourite templates">
+            <div class="gallery-item-title">Reusable Templates</div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="gallery-item" data-preview-src="assets/images/screen-editor.png">
+            <img src="assets/images/screen-editor.png" alt="Edit every moment your way">
+            <div class="gallery-item-title">Multi-Track Editor</div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="gallery-item" data-preview-src="assets/images/screen-export.png">
+            <img src="assets/images/screen-export.png" alt="Export your way with 4K settings">
+            <div class="gallery-item-title">4K 60FPS Export</div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="gallery-item" data-preview-src="assets/images/screen-settings.png">
+            <img src="assets/images/screen-settings.png" alt="Simple and customizable settings">
+            <div class="gallery-item-title">Theme & Cache Controls</div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="gallery-item" data-preview-src="assets/images/screen-editor-alt.png">
+            <img src="assets/images/screen-editor-alt.png" alt="Everything you need to edit">
+            <div class="gallery-item-title">Timeline Tools</div>
+          </div>
+        </div>
+
+        <div class="gallery-controls">
+          <button class="slider-btn" id="sliderPrev" aria-label="Previous Screenshot">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+          <button class="slider-btn" id="sliderNext" aria-label="Next Screenshot">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       How It Works (Workflow Steps)
+       ========================================================= -->
+  <section class="workflow-section" id="workflow">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Simple 3-Step Process</span>
+        <h2 class="section-title">How MeoCut Works</h2>
+        <p class="section-subtitle">Create engaging social videos in under three minutes.</p>
+      </div>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+          </div>
+          <h3>Pick Clips or Choose a Template</h3>
+          <p>Import clips from your gallery or choose a pre-made template. MeoCut automatically aligns your media into slots with perfect rhythm.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+          </div>
+          <h3>Cut, Personalize & Add Polish</h3>
+          <p>Trim with frame precision. Overlay text titles, auto-captions, stickers, and your choice of soundtrack with non-destructive undo/redo.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 16 12 12 8 16"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path></svg>
+          </div>
+          <h3>Export & Share Anywhere</h3>
+          <p>Select your resolution and bitrate, tap Export, and enjoy accelerated rendering without watermarks. Share directly to Instagram, YouTube, and TikTok.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Frequently Asked Questions (FAQ)
+       ========================================================= -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Everything you need to know about MeoCut Video Editor.</p>
+      </div>
+
+      <div class="faq-container">
+        <!-- Q1 -->
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Does MeoCut add a mandatory watermark on exported videos?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>No! MeoCut exports clean, professional videos with zero forced watermarks, allowing you to publish directly to Instagram Reels, YouTube Shorts, or TikTok with complete ownership of your creative work.</p>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What export resolutions and frame rates are supported?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>MeoCut offers comprehensive export controls. You can export in 360p, 480p, 720p, 1080p Full HD, and up to 4K Ultra HD. Frame rate options include 24 FPS (cinematic film look), 30 FPS, and 60 FPS, with configurable bitrates ranging from 8 Mbps to 20 Mbps in MP4 (H.264) and MP4 (HEVC) format.</p>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How do reusable templates work in MeoCut?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Reusable templates allow you to save the timing, transitions, effects, and text animations of any project. When you want to produce a new video, simply select the template and tap 'Use' to quickly insert new video clips or photos into the designated media slots.</p>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Does MeoCut work offline without internet?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. All core video rendering, trimming, overlays, text effects, and exports happen locally on your smartphone's processor using hardware acceleration. You do not need an active internet connection to edit and render your videos.</p>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What devices are compatible with MeoCut?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>MeoCut is built for Android smartphones running Android 8.0 (Oreo) and above. It is optimized to perform efficiently across both budget devices and flagship smartphones.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Section: Privacy Policy (Exact Legal Text from alegal)
+       ========================================================= -->
+  <section class="legal-content-section" id="privacy-policy" style="padding: 50px 0 30px;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Privacy &amp; Data Protection</span>
+        <h2 class="section-title">Privacy Policy</h2>
+        <p class="section-subtitle">Local-first, privacy-by-design architecture for MeoCut Video Editor.</p>
+      </div>
+
+      <div class="legal-container">
+        <div class="legal-notice-box">
+          <p style="margin-bottom: 4px;"><strong>Application Name:</strong> MeoCut</p>
+          <p style="margin-bottom: 4px;"><strong>Last Updated:</strong> November 2026</p>
+          <p style="margin-bottom: 4px;"><strong>Developer Contact:</strong> <a href="mailto:meocut.app@gmail.com" style="color:var(--primary);font-weight:600;">meocut.app@gmail.com</a></p>
+          <p style="margin-bottom: 0;"><strong>Location:</strong> Janjgir, Chhattisgarh, India</p>
+        </div>
+
+        <div class="legal-body">
+          <div class="legal-notice-box" style="background:var(--bg-surface-alt); border-left-color:var(--primary);">
+            <h3 style="margin-top:0; margin-bottom:8px; color:var(--text-main);">PREAMBLE &amp; USER AGREEMENT</h3>
+            <p>
+              MeoCut is engineered with a local-first, privacy-by-design architecture. We believe your video footage, creative projects, and personal media should remain strictly private on your physical device.
+            </p>
+            <p style="margin-top:10px; margin-bottom:0;">
+              By accessing, downloading, or using MeoCut, you agree to the practices outlined in this Privacy Policy. If you do not agree with this policy, please do not use the application.
+            </p>
+          </div>
+
+          <h2 id="data-safety">SECTION 1: ACCOUNT-FREE ARCHITECTURE &amp; LOCAL PROCESSING</h2>
+          
+          <h3>1.1 No Account Required (Zero Registration)</h3>
+          <p>
+            MeoCut does not require users to create an account, register an email address, or log in with credentials. We do not collect, maintain, or store usernames, passwords, phone numbers, or social media profiles on any remote server. Because MeoCut maintains no cloud account database or identity records, there are no remote accounts or credentials to delete under Google Play account deletion mandates.
+          </p>
+
+          <h3>1.2 100% Local On-Device Processing (Zero Cloud Uploads)</h3>
+          <p>
+            All media processing operations—including video decoding, trimming, splitting, frame filtering, custom shaders, multi-track audio compositing, and on-device AI background segmentation (ONNX Runtime)—are executed 100% locally on your device’s physical hardware. We do NOT upload, transmit, stream, inspect, or store your photos, video clips, voice recordings, or exported video files on any remote servers, cloud infrastructure, or external databases.
+          </p>
+
+          <h3>1.3 Non-Destructive &amp; Read-Only Media Access (EDL)</h3>
+          <p>
+            MeoCut accesses your device gallery files in a strictly read-only capacity to generate timeline previews via Edit Decision Lists (EDL). The Application never overwrites, modifies, or deletes your original source files.
+          </p>
+
+          <h2 id="permissions">SECTION 2: DEVICE PERMISSIONS &amp; JUSTIFICATION</h2>
+          <p>
+            To perform standard video editing functions, MeoCut requests access to specific device capabilities:
+          </p>
+
+          <h3>2.1 Photos &amp; Videos / Storage (READ_MEDIA_VIDEO, READ_MEDIA_IMAGES)</h3>
+          <p>
+            Required exclusively to enable you to browse, pick, and import media into your editing timeline, and to write exported video files back to your device storage.
+          </p>
+
+          <h3>2.2 Microphone Permission (RECORD_AUDIO)</h3>
+          <p>
+            Requested only if you actively choose to record audio commentary or voiceovers directly onto the timeline tracks. We never access your microphone in the background.
+          </p>
+
+          <h3>2.3 Camera Permission (CAMERA)</h3>
+          <p>
+            Requested only if you choose to record video footage or snap photos directly within the App interface for immediate editing. We never access your camera in the background.
+          </p>
+
+          <h2>SECTION 3: ADVERTISING &amp; THIRD-PARTY SDKS (ADS DATA)</h2>
+
+          <h3>3.1 Information Automatically Collected by Ad Networks</h3>
+          <p>
+            To support the ongoing free availability of MeoCut, the free tier integrates third-party mobile advertising SDKs (such as Google AdMob). Ad networks may collect:
+          </p>
+          <ul>
+            <li><strong>Device Identifiers:</strong> Google Advertising ID (AAID on Android).</li>
+            <li><strong>Hardware &amp; OS Details:</strong> Device manufacturer, model, operating system version, system language, screen resolution, and mobile carrier.</li>
+            <li><strong>Coarse Location &amp; Network Metrics:</strong> IP address (used solely to approximate coarse geographic location for regional ad delivery) and connection type (Wi-Fi or cellular).</li>
+            <li><strong>Ad Engagement Metrics:</strong> Ad impressions, click-through rates, and video view durations.</li>
+          </ul>
+
+          <h3>3.2 Opting Out of Targeted Advertising</h3>
+          <p>
+            You retain full autonomy to opt out of interest-based or targeted advertising at any time via your device operating system:
+          </p>
+          <ul>
+            <li><strong>Android:</strong> Settings &gt; Google &gt; Ads &gt; Delete advertising ID or Opt out of Ads Personalization.</li>
+          </ul>
+
+          <h2>SECTION 4: IN-APP SUBSCRIPTIONS &amp; THIRD-PARTY SERVICE PROVIDERS</h2>
+
+          <h3>4.1 Zero Financial Data Collection</h3>
+          <p>
+            MeoCut does not collect, inspect, process, or store credit card numbers, debit card numbers, bank account details, UPI identifiers, or billing addresses. All subscription billing transactions are processed directly and securely by Google Play Billing.
+          </p>
+
+          <h3>4.2 Receipt &amp; Entitlement Validation</h3>
+          <p>
+            MeoCut only receives an anonymized, encrypted purchase token or subscription receipt from Google Play (e.g., subscription product identifier, active entitlement validity, expiration timestamp) to unlock Pro features during your active subscription period.
+          </p>
+
+          <h3>4.3 Third-Party Privacy Links</h3>
+          <p>
+            Third-party SDKs integrated into MeoCut operate under their own independent privacy policies:
+          </p>
+          <ul>
+            <li><strong>Google Play Services:</strong> <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color:var(--primary); word-break:break-all;">https://policies.google.com/privacy</a></li>
+            <li><strong>Google AdMob:</strong> <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer" style="color:var(--primary); word-break:break-all;">https://policies.google.com/technologies/ads</a></li>
+          </ul>
+
+          <h2>SECTION 5: CHILDREN'S PRIVACY (COPPA &amp; GDPR-K COMPLIANCE)</h2>
+
+          <h3>5.1 Non-Collection of Children's Data</h3>
+          <p>
+            MeoCut is not directed toward children under thirteen (13) years of age (or under 16 years of age in the European Economic Area). We do not knowingly collect, solicit, or maintain personal identifiable information from children. If we become aware that personal data of a child has been inadvertently gathered, we will take immediate measures to permanently purge such data.
+          </p>
+
+          <h2>SECTION 6: USER RIGHTS, SECURITY &amp; DATA ERASURE</h2>
+
+          <h3>6.1 Statutory User Rights (GDPR / CCPA / DPDP)</h3>
+          <p>
+            Depending on your geographic location (including the EU GDPR, California CCPA/CPRA, and India Digital Personal Data Protection Act), you have rights regarding your personal data. We will never deny services, charge differing prices, or provide degraded performance to users who exercise their statutory privacy rights.
+          </p>
+
+          <h3>6.2 Right to Complete Local Data Erasure</h3>
+          <p>
+            Because your project timelines, draft edits, and cache remain stored exclusively in your device’s sandbox, you can permanently erase all application data at any time by:
+          </p>
+          <ol>
+            <li>Tapping <strong>Settings &gt; Clear Cache</strong> inside MeoCut;</li>
+            <li>Clearing App Storage via your device’s system settings; or</li>
+            <li>Uninstalling the MeoCut application.</li>
+          </ol>
+
+          <h3>6.3 Data Security &amp; Encryption in Transit</h3>
+          <p>
+            Any network communication initiated by integrated third-party SDKs (such as AdMob ad serving or Google Play purchase token confirmation) is strictly executed across encrypted industry-standard HTTPS / TLS protocols.
+          </p>
+
+          <h2>SECTION 7: AMENDMENTS &amp; CONTACT INFORMATION</h2>
+
+          <h3>7.1 Policy Amendments</h3>
+          <p>
+            We reserve the right to amend this Privacy Policy periodically to reflect technological updates, app enhancements, or legal standards. Changes will be indicated by the "Last Updated" date at the header. Continued use of MeoCut after any update signifies your acceptance of the revised Privacy Policy.
+          </p>
+
+          <h3>7.2 Data Controller &amp; Contact Support</h3>
+          <p>
+            For questions, privacy inquiries, or data requests, please contact our support team at:
+          </p>
+          <div class="legal-notice-box" style="background:var(--bg-surface-alt); border-left-color:var(--primary);">
+            <p><strong>Application:</strong> MeoCut Video Editor</p>
+            <p><strong>Support Email:</strong> <a href="mailto:meocut.app@gmail.com" style="color:var(--primary); font-weight:600;">meocut.app@gmail.com</a></p>
+            <p><strong>Location:</strong> Janjgir, Chhattisgarh, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Section: Terms of Service (Exact Legal Text from alegal)
+       ========================================================= -->
+  <section class="legal-content-section" id="terms-of-service" style="padding: 30px 0 60px; background:var(--bg-surface-alt);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">End User Agreement</span>
+        <h2 class="section-title">Terms of Service &amp; EULA</h2>
+        <p class="section-subtitle">Legal agreement and licensing terms for using MeoCut Video Editor.</p>
+      </div>
+
+      <div class="legal-container">
+        <div class="legal-notice-box">
+          <p style="margin-bottom: 4px;"><strong>Application Name:</strong> MeoCut</p>
+          <p style="margin-bottom: 4px;"><strong>Last Updated:</strong> November 2026</p>
+          <p style="margin-bottom: 4px;"><strong>Developer Contact:</strong> <a href="mailto:meocut.app@gmail.com" style="color:var(--primary);font-weight:600;">meocut.app@gmail.com</a></p>
+          <p style="margin-bottom: 0;"><strong>Location:</strong> Janjgir, Chhattisgarh, India</p>
+        </div>
+
+        <div class="legal-body">
+          <div class="legal-notice-box" style="background:var(--bg-surface); border-left-color:var(--primary);">
+            <h3 style="margin-top:0; margin-bottom:8px; color:var(--text-main);">PREAMBLE &amp; ACCEPTANCE OF TERMS</h3>
+            <p style="margin-bottom:0;">
+              <strong>PLEASE READ THIS END USER LICENSE AGREEMENT AND TERMS OF SERVICE CAREFULLY BEFORE USING MEOCUT. BY DOWNLOADING, INSTALLING, ACCESSING, OR USING THE APPLICATION, YOU AGREE TO BE LEGALLY BOUND BY ALL PROVISIONS SET FORTH HEREIN.</strong>
+            </p>
+          </div>
+
+          <h2>SECTION 1: GRANT OF LICENSE &amp; PROPRIETARY RIGHTS</h2>
+
+          <h3>1.1 Limited License Grant</h3>
+          <p>
+            Subject to your strict compliance with this Agreement, the Developer grants you a personal, limited, non-exclusive, non-transferable, revocable, royalty-free license to download, install, and execute MeoCut on mobile devices owned or controlled by you, solely for your personal or lawful commercial video creation purposes.
+          </p>
+
+          <h3>1.2 Proprietary Software Ownership</h3>
+          <p>
+            The Application, including but not limited to its binary code, source code, user interface design, visual layout, animations, icons, custom shader programs (.frag), audio filters, presets, and all associated intellectual property rights, is and remains the sole and exclusive property of the Developer. This Agreement grants you a license to use the App, not ownership of the App.
+          </p>
+
+          <h3>1.3 Strict Prohibition on Reverse Engineering &amp; Piracy</h3>
+          <p>You expressly agree that you shall NOT, directly or indirectly, nor allow any third party to:</p>
+          <ul>
+            <li>Decompile, disassemble, reverse-engineer, decrypt, unpack, or attempt to derive the source code, underlying algorithms, ideas, or structure of MeoCut.</li>
+            <li>Modify, adapt, patch, translate, or create derivative works based upon the Application or any component thereof.</li>
+            <li>Bypass, alter, defeat, disable, or tamper with any digital rights management (DRM), license keys, security mechanisms, or in-app purchase payment verification protocols.</li>
+            <li>Extract, rip, scrape, decode, or repurpose any proprietary shader files, AI model weights (ONNX), built-in audio samples, or graphical assets for use outside of MeoCut.</li>
+            <li>Distribute, host, publish, sublicense, rent, lease, or make available modified, hacked, or cracked versions (such as cracked APK or AAB packages) of MeoCut on any website, file-sharing platform, or third-party store.</li>
+          </ul>
+          <p>
+            Any unauthorized modification, extraction, or distribution constitutes willful copyright infringement and software piracy under applicable civil and criminal statutes.
+          </p>
+
+          <h2 id="intellectual-property">SECTION 2: USER CONTENT &amp; NON-DESTRUCTIVE EDITING (EDL)</h2>
+
+          <h3>2.1 100% Full User Ownership</h3>
+          <p>
+            You retain 100% full, exclusive, and unencumbered ownership, title, and all intellectual property rights in and to any videos, photographs, audio tracks, text, and other media imported, processed, or exported by you using MeoCut ("User Content"). The Developer asserts zero ownership or intellectual property claims over your personal User Content.
+          </p>
+
+          <h3>2.2 Non-Destructive Editing (EDL Architecture)</h3>
+          <p>
+            MeoCut operates strictly on a non-destructive editing framework powered by an Edit Decision List (EDL). The Application reads source media in read-only mode to render virtual timeline previews and creates project instruction data. The Application never modifies, overwrites, corrupts, or deletes your original source media files from your device storage. Output files are generated only when you explicitly execute an export operation to create a separate, new video file.
+          </p>
+
+          <h3>2.3 Acceptable Content Policy</h3>
+          <p>You represent and warrant that your User Content shall not:</p>
+          <ul>
+            <li>Infringe upon any third party’s copyright, patent, trademark, trade secret, privacy, or moral rights;</li>
+            <li>Contain any defamatory, libelous, sexually explicit, pornographic, hateful, violent, threatening, or unlawful materials;</li>
+            <li>Promote illegal acts, violence, hate speech, or discrimination based on race, religion, gender, disability, or sexual orientation.</li>
+          </ul>
+
+          <h3>2.4 User Liability for Copyright Infringement</h3>
+          <p>
+            You are exclusively responsible for securing all requisite rights, licenses, clearances, and authorizations for any music, sound recordings, video clips, or copyrighted material incorporated into your projects. The Developer disclaims all liability for copyright strikes, DMCA takedown notices, royalty disputes, or legal claims arising from your media creations.
+          </p>
+
+          <h2>SECTION 3: IN-APP SUBSCRIPTIONS (MEOCUT PRO) &amp; ADVERTISEMENTS</h2>
+
+          <h3>3.1 Store Billing &amp; Subscription Processing</h3>
+          <p>
+            All recurring subscriptions for premium features (e.g., MeoCut Pro) are billed, transacted, and authenticated exclusively through the official Google Play In-App Billing / Subscription infrastructure (Google LLC). MeoCut Pro is offered strictly on a recurring subscription basis (no lifetime access or one-time permanent purchase is offered). The Developer does not access, store, or process payment card details.
+          </p>
+
+          <h3>3.2 Auto-Renewal, Cancellation &amp; No Developer Guarantee</h3>
+          <p>
+            Recurring subscriptions automatically renew through Google Play unless cancelled by you. All subscription billing, auto-renewals, cancellation processing, and cutoff timings are managed exclusively by Google LLC. The Developer does not operate, control, or guarantee Google Play’s billing schedules, renewal timings, or auto-debit mechanisms. Subscriptions must be managed or cancelled at any time directly by you through your Google Play Account settings.
+          </p>
+
+          <h3>3.3 Refund Policy</h3>
+          <p>
+            All refund requests are governed strictly by the refund guidelines and policies established by Google Play. The Developer possesses no authority or technical mechanism to issue direct monetary refunds.
+          </p>
+
+          <h3>3.4 No Watermark Guarantee Across All Tiers</h3>
+          <p>
+            MeoCut provides 100% watermark-free video exports across both the Free and Paid/Pro tiers. Active subscriptions provide access to exclusive premium tools, advanced features, and an ad-free experience.
+          </p>
+
+          <h3>3.5 Hardware-Dependent Export Performance</h3>
+          <p>
+            Export rendering speed and maximum output resolution (e.g., 1080p, 4K, 60fps) are strictly subject to your device’s hardware chipset, thermal limits, GPU capabilities, and available system storage. The Developer does not warrant that all devices will achieve identical rendering speeds or support maximum resolution thresholds.
+          </p>
+
+          <h3>3.6 Third-Party Advertisements &amp; Ad-Free Experience</h3>
+          <p>
+            The free tier of MeoCut displays third-party advertisements managed by ad networks such as Google AdMob. The Developer does not sponsor, endorse, or assume responsibility for any products, services, or claims displayed in advertisements. An active MeoCut Pro subscription removes all third-party banner and interstitial advertisements.
+          </p>
+
+          <h2>SECTION 4: ON-DEVICE AI, STOCK ASSETS &amp; AGE ELIGIBILITY</h2>
+
+          <h3>4.1 On-Device AI Features (ONNX Runtime)</h3>
+          <p>
+            Features such as automated background removal or smart cutouts are powered by local, on-device machine learning models (ONNX Runtime). AI-assisted tools are provided strictly as assistive editing utilities on an "AS-IS" basis and may not always be 100% accurate, complete, or artifact-free in all lighting or subject conditions.
+          </p>
+
+          <h3>4.2 Stock Media &amp; Asset Licensing</h3>
+          <p>
+            Any royalty-free audio tracks, sound effects, stickers, or graphic presets made available within MeoCut are licensed solely for integration into your personal or commercial video projects. You may not extract, isolate, sublicense, distribute, or resell these assets as standalone media.
+          </p>
+
+          <h3>4.3 Third-Party Open Source Software Notices</h3>
+          <p>
+            MeoCut utilizes third-party open-source components (including the Flutter framework, MediaKit, ONNX Runtime, and Google Fonts). Each component is governed by its respective open-source license (such as MIT, Apache 2.0, BSD, or LGPL). Nothing in this Agreement restricts, limits, or supersedes your rights under applicable open-source licenses.
+          </p>
+
+          <h3>4.4 Age Eligibility (13+ Requirement)</h3>
+          <p>
+            You represent and warrant that you are at least thirteen (13) years of age (or the legal age required in your country of residence). If you are between 13 and 18 years of age, you represent that you have obtained the consent and supervision of your parent or legal guardian to agree to this Agreement.
+          </p>
+
+          <h2>SECTION 5: DISCLAIMER OF WARRANTIES &amp; LIMITATION OF LIABILITY</h2>
+
+          <h3>5.1 Disclaimer of Warranties ("AS IS")</h3>
+          <p>
+            MEOCUT IS PROVIDED TO YOU ON AN "AS IS" AND "AS AVAILABLE" BASIS, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+          </p>
+
+          <h3>5.2 Exclusion of Consequential Damages &amp; Data Loss</h3>
+          <p>
+            TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING LOSS OF BUSINESS PROFITS, LOSS OF RAW FOOTAGE, PROJECT CORRUPTION, LOSS OF DATA, DEVICE OVERHEATING, OR COMMERCIAL LOSSES ARISING OUT OF THE USE OF THE APPLICATION. YOU BEAR SOLE RESPONSIBILITY FOR MAINTAINING INDEPENDENT BACKUPS OF YOUR SOURCE MEDIA.
+          </p>
+
+          <h3>5.3 Cap on Monetary Liability (10 USD / ₹500 INR)</h3>
+          <p>
+            IN NO EVENT SHALL THE DEVELOPER’S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR YOUR USE OF MEOCUT EXCEED THE ACTUAL MONETARY AMOUNT PAID BY YOU FOR THE MEOCUT APPLICATION OR SUBSCRIPTION, OR TEN UNITED STATES DOLLARS ($10.00 USD) / FIVE HUNDRED INDIAN RUPEES (₹500 INR) IF ACCESSED ON THE FREE TIER.
+          </p>
+
+          <h3>5.4 Indemnification by User</h3>
+          <p>
+            You agree to defend, indemnify, and hold harmless the Developer and its agents from and against any claims, liabilities, losses, damages, and expenses (including legal fees) arising from your use of the Application, your User Content, your violation of third-party intellectual property or privacy rights, or your breach of this Agreement.
+          </p>
+
+          <h2>SECTION 6: GOVERNING LAW, JURISDICTION &amp; CONTACT</h2>
+
+          <h3>6.1 Governing Law &amp; Legal Jurisdiction</h3>
+          <p>
+            This Agreement, and all matters arising out of or relating to it, shall be governed by, construed, and enforced in accordance with the laws of India, without regard to conflict of law principles. Any legal suit, action, arbitration, dispute, or proceeding arising out of or related to this Agreement or the use of MeoCut shall be instituted exclusively in the competent courts located in Janjgir, Chhattisgarh, India. You hereby irrevocably submit to the exclusive personal jurisdiction of such courts.
+          </p>
+
+          <h3>6.2 Termination &amp; Amendments</h3>
+          <p>
+            We reserve the right to immediately terminate or revoke your license to use MeoCut and any active Pro features without prior notice if you violate these Terms or engage in piracy or fraudulent conduct. We reserve the right to modify these Terms periodically; continued use of MeoCut constitutes acceptance of updated terms.
+          </p>
+
+          <h3>6.3 Developer Contact &amp; Support</h3>
+          <p>
+            If you have any questions, legal notices, or feedback regarding these Terms of Service, please contact our support team at:
+          </p>
+          <div class="legal-notice-box" style="background:var(--bg-surface); border-left-color:var(--primary);">
+            <p><strong>Application:</strong> MeoCut</p>
+            <p><strong>Support Email:</strong> <a href="mailto:meocut.app@gmail.com" style="color:var(--primary); font-weight:600;">meocut.app@gmail.com</a></p>
+            <p><strong>Location:</strong> Janjgir, Chhattisgarh, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Download CTA Banner & Technical Specs
+       ========================================================= -->
+  <section class="download-section" id="download">
+    <div class="container">
+      <div class="download-card">
+        <div class="download-grid">
+          <div class="download-content">
+            <h2>Ready to Create Epic Videos?</h2>
+            <p>Download MeoCut today and unleash your creativity with lightning-fast timeline editing, reusable templates, and pristine 4K exports.</p>
+
+            <div class="download-buttons">
+              <!-- Play Store Button -->
+              <a href="#download" class="playstore-btn download-trigger">
+                <svg viewBox="0 0 512 512">
+                  <path fill="#4285F4" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z"/>
+                  <path fill="#34A853" d="M47 34.3v443.4l240.2-240.2L47 34.3z"/>
+                  <path fill="#FBBC04" d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+                  <path fill="#EA4335" d="M444.6 235.2l-59.2-34-60.1 60.1 60.1 60.1 59.2-34c16.3-9.3 26.4-26.6 26.4-46.1 0-19.5-10.1-36.8-26.4-46.1z"/>
+                </svg>
+                <div class="playstore-btn-text">
+                  <span>DOWNLOAD FOR FREE</span>
+                  <span>Google Play</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- QR Code Preview Box -->
+          <div class="qr-box-wrap">
+            <div class="qr-code-box">
+              <!-- Visual Clean QR Code Representation -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="140" height="140" fill="#0f1c2e">
+                <rect x="10" y="10" width="24" height="24" rx="4" fill="none" stroke="#0091ff" stroke-width="4"/>
+                <rect x="16" y="16" width="12" height="12" fill="#0091ff"/>
+                <rect x="66" y="10" width="24" height="24" rx="4" fill="none" stroke="#0091ff" stroke-width="4"/>
+                <rect x="72" y="16" width="12" height="12" fill="#0091ff"/>
+                <rect x="10" y="66" width="24" height="24" rx="4" fill="none" stroke="#0091ff" stroke-width="4"/>
+                <rect x="16" y="72" width="12" height="12" fill="#0091ff"/>
+                <rect x="42" y="15" width="8" height="8"/>
+                <rect x="42" y="32" width="8" height="8"/>
+                <rect x="52" y="45" width="8" height="8"/>
+                <rect x="65" y="45" width="8" height="8"/>
+                <rect x="80" y="65" width="8" height="8"/>
+                <rect x="65" y="75" width="12" height="8"/>
+                <rect x="45" y="65" width="12" height="8"/>
+                <rect x="45" y="80" width="8" height="8"/>
+              </svg>
+            </div>
+            <p>Scan to Download</p>
+            <small>Direct access on mobile</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       Footer
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <img src="assets/images/logo.png" alt="MeoCut Logo">
+            <span>MeoCut</span>
+          </a>
+          <p>
+            MeoCut is a modern, privacy-focused mobile video editing suite built to help creators produce cinematic stories with reusable templates and pro 4K export controls.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#features">Features</a>
+            <a href="#showcase">App Showcase</a>
+            <a href="#gallery">Screenshots</a>
+            <a href="#workflow">How It Works</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Important Legal</h4>
+          <div class="footer-links">
+            <a href="#privacy-policy">Privacy Policy (On-Page)</a>
+            <a href="privacy-policy.html">Privacy Policy (Standalone)</a>
+            <a href="#terms-of-service">Terms of Service (On-Page)</a>
+            <a href="terms-of-service.html">Terms of Service (Standalone)</a>
+            <a href="#permissions">App Permissions</a>
+            <a href="#data-safety">Data Safety (Zero Uploads)</a>
+            <a href="#intellectual-property">User Content Ownership</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Developer Support</h4>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:meocut.app@gmail.com" style="color:inherit;">meocut.app@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <span>www.meocut.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 MeoCut Video Editor. All rights reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#privacy-policy">Privacy Policy</a>
+          <a href="#terms-of-service">Terms of Service</a>
+          <a href="privacy-policy.html">Standalone URL</a>
+          <a href="#hero">Back to Top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       Lightbox Modal for Fullscreen Screenshot Preview
+       ========================================================= -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content-box">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Preview">&times;</button>
+      <img src="" alt="Screenshot Full Preview" class="modal-img" id="modalImg">
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
